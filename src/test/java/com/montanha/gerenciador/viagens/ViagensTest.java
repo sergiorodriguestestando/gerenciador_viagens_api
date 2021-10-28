@@ -6,9 +6,10 @@ import com.montanha.gerenciador.utils.BasePage;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 //import org.h2.util.New;
+
 import org.junit.FixMethodOrder;
 import org.junit.Test;
-import org.junit.runners.MethodSorters;
+
 
 import java.util.Collections;
 import java.util.Date;
@@ -18,8 +19,8 @@ import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
 
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class ViagensTest  extends BasePage {
+//@FixMethodOrder(MethodSorters.NAME_ASCENDING)
+class ViagensTest  extends BasePage {
     int   id;
     int   idNew;
     Usuario usuario =  new Usuario();
