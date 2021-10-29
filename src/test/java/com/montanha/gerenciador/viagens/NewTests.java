@@ -12,4 +12,7 @@ public class NewTests {
     public void test01(){
         System.out.println("Testando...");
     }
+    public void test01(){
+        System.out.println("Criando Pull Resquest...");
+    }
 }
